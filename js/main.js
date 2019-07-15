@@ -1,7 +1,7 @@
 window.onload = function () {
 	var dds = document.getElementsByTagName('dd');
 	var dl = document.getElementsByTagName('dl')[0];
-	dl.style.transform = "rotateX(-10deg) rotateY(0deg)";
+	dl.style.transform = "rotateX(-10deg) rotateY(8deg)";
 	for (var i = 0; i < dds.length; i++) {
 		var inverted = document.createElement('div');
 		var inverteds = document.createElement('div');
